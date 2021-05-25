@@ -1,0 +1,51 @@
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  text-transform: uppercase;
+}
+
+.navbar .logo {
+  padding: 10px;
+  margin-right: auto;
+  font-size: 1.6em;
+  font-weight: 700;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.navbar .logo:hover {
+  cursor: pointer;
+  letter-spacing: 5px;
+}
+
+.navbar a {
+  padding: 10px 20px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  transition: 0.5s;
+}
+
+.navbar a:hover {
+  letter-spacing: 4px;
+  cursor: pointer;
+}
+
+@media (max-width: 968px) {
+  .navbar .logo {
+    display: none;
+  }
+
+  .navbar a {
+    font-size: 18px;
+  }
+}
