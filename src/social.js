@@ -19,9 +19,9 @@ function createSocial() {
     return li;
   }
 
-  const facebook = createSocialElement("/dist/icons/facebook.png");
-  const twitter = createSocialElement("/dist/icons/twitter.png");
-  const instagram = createSocialElement("/dist/icons/instagram-logo.png");
+  const facebook = createSocialElement("./icons/facebook.png");
+  const twitter = createSocialElement("./icons/twitter.png");
+  const instagram = createSocialElement("./icons/instagram-logo.png");
 
   // Adds links to ul
   ul.append(facebook, twitter, instagram);

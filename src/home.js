@@ -14,7 +14,11 @@ function createHome() {
 function createText() {
   // Creates a container to hold text content
   const textContainer = document.createElement("div");
-  textContainer.classList.add("text-container");
+  textContainer.classList.add(
+    "text-container",
+    "animate__animated",
+    "animate__bounceInLeft"
+  );
 
   // Creates text elements and set their content
   const h2 = document.createElement("h2");

@@ -15,6 +15,7 @@ function createContacts() {
 
 function createContactItem(header, text) {
   const container = document.createElement("div");
+  container.classList.add("animate__animated", "animate__rotateInUpRight");
 
   const h2 = document.createElement("h2");
   h2.textContent = header;

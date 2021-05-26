@@ -11,7 +11,11 @@ function createMenu() {
 
 function createItemContainer() {
   const itemsContainer = document.createElement("div");
-  itemsContainer.classList.add("items-container");
+  itemsContainer.classList.add(
+    "items-container",
+    "animate__animated",
+    "animate__flipInX"
+  );
 
   const item1 = createMenuItems("Cookies with ice cream", "item1");
   const item2 = createMenuItems("Gourmet Burger", "item2");
