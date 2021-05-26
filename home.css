@@ -5,6 +5,7 @@ section.home {
   justify-content: space-between;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.733);
+  overflow: hidden;
 }
 
 .home .text-container {
