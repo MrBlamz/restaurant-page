@@ -1,4 +1,4 @@
-function createSocialContainer() {
+function createSocial() {
   // Creates a container to hold social media info
   const socialContainer = document.createElement("div");
   socialContainer.classList.add("social");
@@ -32,4 +32,4 @@ function createSocialContainer() {
   return socialContainer;
 }
 
-export default createSocialContainer;
+export default createSocial;

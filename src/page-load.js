@@ -1,9 +1,16 @@
 import createNavbar from "./navbar";
-import createSocialContainer from "./social";
-import createHome from "./home";
-import createMenu from "./menu";
-import createContacts from "./contacts";
+import createSocial from "./social";
 
-export function loadPage(container) {
-  container.append(createNavbar(), createContacts(), createSocialContainer());
+function loadPage(element) {
+  const container = document.getElementById("content");
+  const section = container.querySelector("section");
+
+  if (section) {
+    section.replaceWith(element);
+    return;
+  }
+
+  container.append(createNavbar(), element, createSocial());
 }
+
+export default loadPage;

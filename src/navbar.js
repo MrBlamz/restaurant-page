@@ -8,6 +8,7 @@ function createNavbar() {
 
   const home = document.createElement("a");
   home.textContent = "Home";
+  home.classList.add("active");
 
   const menu = document.createElement("a");
   menu.textContent = "Menu";
