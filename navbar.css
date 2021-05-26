@@ -35,6 +35,10 @@
   transition: 0.5s;
 }
 
+.navbar a.active {
+  border-bottom: 1px solid #fff;
+}
+
 .navbar a:hover {
   letter-spacing: 4px;
   cursor: pointer;
