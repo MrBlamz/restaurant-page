@@ -1,6 +1,6 @@
 # Restaurant Page
 
-## Tecnologies Used
+## Technologies Used
 
 - HTML
 - CSS
